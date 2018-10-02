@@ -629,7 +629,7 @@ $(document).ready(function(){
 							return false;
 						});
 						while(true){
-							ai = Math.floor(Math.random()*9+1);
+							ai = Math.floor(Math.random()*9);
 							if(humanMoves.indexOf(Number(ai))==-1 && computerMoves.indexOf(Number(ai))==-1)
 								break;
 						}
